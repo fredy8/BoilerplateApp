@@ -12,3 +12,6 @@ node_modules
 
 # Mac OSX folder metadata
 .DS_STORE
+
+# Vim
+.swp
