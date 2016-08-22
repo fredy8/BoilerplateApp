@@ -45,20 +45,10 @@
     "webpack-merge": "^0.1.2"
   },
   "dependencies": {
-    "auto-bind": "file:local_modules/auto-bind",
-    "backbone-routing": "^0.2.0",
     "bootstrap": "^3.3.5",
-    "browser-filesaver": "^1.1.0",
     "jquery": "^2.1.4",
-    "moment": "^2.10.6",
     "normalize.css": "^3.0.3",
-    "number-input": "file:local_modules/number-input",
-    "powerpoint-replace": "file:local_modules/powerpoint-replace",
-    "quick-select": "https://github.com/fredy8/quick-select/archive/dde08aef0008471217ab4da6fc17d410e0a47300.tar.gz",
     "ramda": "^0.17.1",
-    "react": "^0.13.3",
-    "react-date-picker": "^3.1.7",
-    "read-excel": "file:local_modules/read-excel",
-    "shared": "file:../api/local_modules/shared"
+    "react": "^0.13.3"
   }
 }
