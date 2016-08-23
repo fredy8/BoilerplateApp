@@ -10,7 +10,7 @@
   "main": "dist/index.js",
   "repository": "@@REPOSITORY_NAME@@",
   "scripts": {
-    "build": "npm run clean && node_modules/.bin/babel --presets es2015 -d bin/ src/",
+    "build": "npm run clean && node_modules/.bin/babel --presets es2015 -d dist/ src/",
     "clean": "rm -rf build"
   },
   "dependencies": {},
