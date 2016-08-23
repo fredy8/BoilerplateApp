@@ -7,7 +7,7 @@ let settings = {
   port: '@@API_PORT@@'
 };
 
-if (process.env.NODE_ENV == 'production') {
+if (process.env.NODE_ENV !== 'production') {
 	const devSettings = {
     hostname: servers.development.hostname,
     port: '@@API_PORT_DEV@@'
