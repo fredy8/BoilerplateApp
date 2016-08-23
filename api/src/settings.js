@@ -10,7 +10,7 @@ let settings = {
 
 if (process.env.NODE_ENV !== 'production') {
 	const devSettings = {
-    hostname: 127.0.0.1,
+    hostname: '127.0.0.1',
     port: '@@API_PORT_DEV@@'
 	};
 
