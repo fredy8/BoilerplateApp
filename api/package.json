@@ -11,7 +11,7 @@
   "repository": "@@REPOSITORY_NAME@@",
   "scripts": {
     "start": "node_modules/.bin/nodemon src/index.js",
-    "build": "npm run clean && node_modules/.bin/gulp build",
+    "build": "npm run clean && node_modules/.bin/babel --presets es2015 -d bin/ src/",
     "clean": "rm -rf build",
     "test": "node_modules/.bin/mocha",
     "lint": "node_modules/.bin/eslint . --ext .js --ignore-path .eslintignore"
