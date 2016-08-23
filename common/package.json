@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "author": "@@AUTHOR_NAME@@ <@@AUTHOR_EMAIL@@>",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "@@REPOSITORY_NAME@@",
   "scripts": {
     "build": "npm run clean && node_modules/.bin/babel --presets es2015 -d bin/ src/",
