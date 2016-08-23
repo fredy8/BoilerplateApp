@@ -10,7 +10,8 @@
   "repository": "@@REPOSITORY_NAME@@",
   "main": "dist/index.js",
   "scripts": {
-    "build": "rm -rf dist && ./node_modules/.bin/babel --presets es2015 -d dist/ src/"
+    "build": "npm run clean && ./node_modules/.bin/babel --presets es2015 -d dist/ src/",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "any-db": "^2.1.0",
