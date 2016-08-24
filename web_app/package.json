@@ -46,6 +46,7 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.5",
+    "common": "../common",
     "jquery": "^2.1.4",
     "normalize.css": "^3.0.3",
     "ramda": "^0.17.1",
