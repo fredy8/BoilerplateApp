@@ -50,7 +50,6 @@
     "jquery": "^2.1.4",
     "normalize.css": "^3.0.3",
     "ramda": "^0.17.1",
-    "react": "^0.13.3",
-    "servers": "../servers"
+    "react": "^0.13.3"
   }
 }

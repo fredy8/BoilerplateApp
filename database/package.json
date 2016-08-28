@@ -18,8 +18,7 @@
     "any-db-postgres": "^2.1.4",
     "any-db-transaction": "^2.2.2",
     "promise": "^7.1.1",
-    "ramda": "^0.22.1",
-    "servers": "../servers"
+    "ramda": "^0.22.1"
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",

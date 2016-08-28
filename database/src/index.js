@@ -1,5 +1,3 @@
 import db from './db';
 
-module.exports = {
-  db
-};
+export default db;
